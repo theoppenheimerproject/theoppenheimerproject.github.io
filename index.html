@@ -1,0 +1,92 @@
+<html>
+<body>
+<title></title>
+<h1>The Quagmire Files</h1>
+<br/>
+
+<h3><a href="archive" alt="archive">View the Archive</a>
+<p></p>
+
+<style>
+h1 {
+    color: white;
+	font-size: 3rem;
+	text-align: center;
+}
+
+h2 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+
+h3 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+}
+a:link {
+    color: white;
+	text-decoration: underline;
+}
+
+a:visited {
+    color: #BA0000;
+	text-decoration: underline;
+}
+
+a:hover {
+    color: #BA0000;
+	text-decoration: underline;
+}
+
+a:active {
+    color: #BA0000;
+	text-decoration: underline;
+}
+</style>
+
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = ["Q", "Qu", "Qua", "Quag", "Quagm", "Quagmi", "Quagmir", "Quagmire"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script> 
+ $('#SearchBox').on('click', function () {
+    var searchInput = $('#search').val();
+    var url = "dox=" + searchInput;
+    window.open(url);
+});
+ </script>
+ 
+ <script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+</script>
+	
+	<script>
+window.SetVolume = function(val)
+{
+    var player = document.getElementById('video');
+    console.log('Before: ' + player.volume);
+    player.volume = val / 100;
+    console.log('After: ' + player.volume);
+}
+	</script>
