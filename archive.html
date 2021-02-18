@@ -1,0 +1,82 @@
+<html>
+<body style="background-color:black;">	
+<title></title>
+<table style="width:100%">
+
+  <tr>
+    <th><font color="#ffffff">Person</th></font>
+    <th><font color="#ffffff">Status</th></font> 
+  </tr>
+  	  <tr>
+    <td><font color="#ffffff"><a href="https://slaughterdev.github.io/symbolism" alt="Symbolism">Symbolism // Joakim Henningsson</a></td></font>
+    <td><font color="#00ff16">Verified</font></td>
+
+  </tr>
+</table>
+<div></div>
+  
+</table>
+</body>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+table, th, td {
+    border: 2px solid white;
+}
+  video#video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover; 
+}
+
+h1 {
+font-family: 'Great Vibes',sans-serif;
+    color: white;
+    font-size: 3rem;
+    display: block;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+a:link {
+    color: white;
+	text-decoration: none;
+}
+a:visited {
+    color: white;
+	text-decoration: none;
+}
+a:hover {
+    color: red;
+	text-decoration: none;
+}
+a:active {
+    color: red;
+	text-decoration: none;
+}
+</style>
+
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = [" ", "Q", "Qu", "Qua", "Quag", "Quagm", "Quagmi", "Quagmir", "Quagmire"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>
