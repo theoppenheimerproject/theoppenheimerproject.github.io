@@ -62,7 +62,7 @@ function loaded() {
     setInterval(loop, 250);
 }
 var x = 0;
-var titleText = [" ", "Q", "Qu", "Qua", "Quag", "Quagm", "Quagmi", "Quagmir", "Quagmire"];
+var titleText = [" ឵឵", "Q", "Qu", "Qua", "Quag", "Quagm", "Quagmi", "Quagmir", "Quagmire"];
 function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 }
@@ -76,18 +76,3 @@ function loop() {
     window.open(url);
 });
  </script>
- 
- <script>
-  var audio = document.getElementById("myaudio");
-  audio.volume = 0.3;
-</script>
-	
-	<script>
-window.SetVolume = function(val)
-{
-    var player = document.getElementById('video');
-    console.log('Before: ' + player.volume);
-    player.volume = val / 100;
-    console.log('After: ' + player.volume);
-}
-	</script>
