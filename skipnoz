@@ -1,0 +1,112 @@
+<html>
+<body style="background-color:black;">	
+<title></title>
+<h2>Skipn0z // Reda Abounaim </h2>
+<textarea class="form-group" style="width:100%;height:80%;background-color:black;color:white; !important;" readonly="readonly">
+╔───────────────────────────────────────────────────────────────────────────────────────────────────────────╗
+ 0x01 Introduction                                                                             
+╚───────────────────────────────────────────────────────────────────────────────────────────────────────────╝
+
+Reason: TBA
+
+╔───────────────────────────────────────────────────────────────────────────────────────────────────────────╗
+ 0x02 Personal Information
+╚───────────────────────────────────────────────────────────────────────────────────────────────────────────╝	
+(Confirmed)
+
+Full Name..............: Reda Abounaim
+Age....................: 23
+DOB....................: March 25th 1997
+Phone..................: 
+Email..................: reda-abounaim@outlook.fr
+.......................: mouadabounaim1234@gmail.com
+Address................: 
+Car....................: 2008 Mercedes Benz E-Class
+
+
+╔───────────────────────────────────────────────────────────────────────────────────────────────────────────╗
+ 0x03 Accounts                                                                       
+╚───────────────────────────────────────────────────────────────────────────────────────────────────────────╝
+(Confirmed)
+http://www.facebook.com/r.misteryou
+https://www.faceit.com/en/players/-Reda
+https://ask.fm/RedaMisteryou
+https://www.instagram.com/a6ounaim/
+https://twitter.com/reda_abounaim (719864886)
+https://www.facebook.com/Abounaim.Reda (100007734617357)
+
+https://www.epicnpc.com/members/skipn0z.769163/
+https://umggaming.com/u/skipn0z
+https://monolithservers.com/forums/members/skipn0z.7835/
+https://play.esea.net/users/1238572
+https://www.youtube.com/channel/UCzXbojMjQZGWNKXE94DDVAA
+https://steamcommunity.com/profiles/76561198275617771
+https://steamcommunity.com/id/FuckSkip/
+https://twitter.com/skipn0z (3313969061)
+https://twitter.com/xSkipn0z (2941428849)
+
+https://steamcommunity.com/id/KennyS123456789/
+
+Valorant: skip#777 
+Snapchat: hot_morrocanboy
+Kik: Givenshxt
+BBM: #7D02F889
+
+Use https://tweeterid.com with the User ID to find any future @'s if he changes it.
+Use https://commentpicker.com/instagram-username.php with the User ID to find any future @'s if he changes it.
+</textarea>
+</form> 
+	
+<style>
+h1 {
+    color: white;
+	font-size: 3rem;
+	text-align: center;
+}
+h2 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+h3 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+a:link {
+    color: white;
+	text-decoration: underline;
+}
+a:visited {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:hover {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:active {
+    color: #BA0000;
+	text-decoration: underline;
+}
+</style>
+
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = [" ឵឵", "O", "Op", "Opp", "Oppe", "Oppen", "Oppenh", "Oppenhe", "Oppenhei", "Oppenheim", "Oppenheime", "Oppenheimer"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>
