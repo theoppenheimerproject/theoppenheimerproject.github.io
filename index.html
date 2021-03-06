@@ -13,5 +13,24 @@
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = [" ឵឵", "O", "Op", "Opp", "Oppe", "Oppen", "Oppenh", "Oppenhe", "Oppenhei", "Oppenheim", "Oppenheime", "Oppenheimer"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>  
 </body>
 </html>
