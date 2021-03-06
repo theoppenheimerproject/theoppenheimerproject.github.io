@@ -43,13 +43,19 @@ canvas{
   vertical-align:bottom;
 }
 
+@font-face {
+  font-family: sourceCode;
+  src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
+}
+
 .topnav-centered a {
   float: none;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
+  font-family: sourceCode;
 }
 
 .topnav-centered a:link {
