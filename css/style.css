@@ -49,25 +49,25 @@ canvas{
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-	
-a:link {
+}
+
+.topnav-centered a:link {
   color: white;
 }
 
 /* visited link */
-a:visited {
+.topnav-centered a:visited {
   color: white;
 }
 
 /* mouse over link */
-a:hover {
+.topnav-centered a:hover {
   color: white;
 }
 
 /* selected link */
-a:active {
+.topnav-centered a:active {
   color: white;
-}
 }
 
 /* ---- particles.js container ---- */
