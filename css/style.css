@@ -43,6 +43,14 @@ canvas{
   vertical-align:bottom;
 }
 
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js{
