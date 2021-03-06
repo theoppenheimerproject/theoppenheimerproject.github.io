@@ -43,10 +43,7 @@ canvas{
   vertical-align:bottom;
 }
 
-@font-face {
-  font-family: sourceCode;
-  src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 .topnav-centered a {
   float: none;
@@ -55,7 +52,7 @@ canvas{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
-  font-family: sourceCode;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .topnav-centered a:link {
